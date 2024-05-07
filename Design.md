@@ -1,8 +1,8 @@
 # The Design of a Database-Driven Web Application for NCEA Level 3
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Retail Shift Management System**
 
-Project Author: **YOUR NAME HERE**
+Project Author: **William Papps**
 
 Assessment Standards: **91902** and **91903**
 
@@ -13,7 +13,7 @@ Assessment Standards: **91902** and **91903**
 
 ### Identified Need or Problem
 
-Replace this text with a clearly stated problem or need that exists that your project will attempt to solve / fulfil.
+A Retail Business needs to be able to have a simple system that allow's them to see their employee's shifts and manage them.
 
 ### End-User Requirements
 
