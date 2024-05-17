@@ -17,11 +17,23 @@ A Retail Business needs to be able to have a simple system that allow's them to 
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+The Retail Shift Managers and employees. These users will be workers, but also involved in what time they work. The clients want a  way to see and manage the shifts that their employees will be working so that they can prepare for the amount of work that will be done and need to be done as well as give new employees shift's in time's where they need more. They might do this via a mobile device, or a computer. Their IT skills could be weak, so they should be able to use my system without any training. They will likely want the site to have styling related to easy to understand and easy to use. The managers will be able to have some training to use the system, but even then the system should still be easy to use. They will mostly be using the system via the business computer. They will want the site to be very easy to use and straightforward and able to present the data cleanly. In terms of styling they could have it matching their style of business.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+A website for the Retail Business that allows the business manager to view employees shifts with editable data to manage when people are working. The website will also allow the manager to select certain employee's and edit when they're working.
+
+Client should be able to
+
+- View assigned shifts
+- View others assigned Shifts
+
+Managers should be able to 
+-View employee's assigned shifts
+-Edit and Manage employee's assigned shifts
+-add new employee
+
+
 
 
 -------------------------------------------------
@@ -84,46 +96,63 @@ Replace this text with an explanation of what you will need to consider moving f
 
 -------------------------------------------------
 
-## Design, Development and Testing Log
+## Final System Design
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place images here that show your *final design* of your UI: layout, colours, etc.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Completed System
 
-Replace this test with what you are working on
+### Database Structure
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-### DATE HERE
+### User Interface Design
 
-Replace this test with what you are working on
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
+-------------------------------------------------
 
-Replace this test with what you are working on
+## Review and Evaluation
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Meeting the Needs of the Users
 
-### DATE HERE
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-Replace this test with what you are working on
+### Meeting the System Requirements
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### DATE HERE
+### Review of IMPLICATION NAME HERE
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of IMPLICATION NAME HERE
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+

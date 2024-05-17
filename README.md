@@ -1,12 +1,22 @@
-# Retail Shift Management System
+# PROJECT NAME HERE
 
-This is my Level 3 project
+This is my Level 3 NCEA project for Digital Technologies
 
-It has these features:
+![Example Image](images/example.jpg)
 
-- One
-- Two
-- Three
+It is a database-driven web app that allows users to:
+
+- Feature 1 here
+- Feature 2 here
+- Feature 3 here
+- Feature 4 here
+- Feature 5 here
 
 
+## Documentation
+
+The following documents support this project:
+
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)
 
