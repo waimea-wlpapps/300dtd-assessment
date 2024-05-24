@@ -1,4 +1,4 @@
-# PROJECT NAME HERE
+# Retail Shift Management System
 
 This is my Level 3 NCEA project for Digital Technologies
 
