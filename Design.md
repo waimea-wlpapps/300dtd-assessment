@@ -73,21 +73,28 @@ As i design my website I will make sure that the colour and tone I combine will 
 
 ## Relevant User Experience (UX) Principles
 
-### UX PRINCIPLE NAME HERE
+### Useful
 
-Replace this text with a clear explanation of what the UX design principle means.
+Products and systems should be genuinely useful and fulfil a real need/purpose for the desired end-users.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+If the website doesn't make it easy for clients to view a list of its employee's and their scheduled shifts, or if the site isn't easy to use and requires help, then it is clearly not a very useful site, and will most likely frustrate users. Frustrated users won't bother using the system and will revert to there older system or the one they're familiar with.
 
-### UX PRINCIPLE NAME HERE
 
-Replace this text with a clear explanation of what the UX design principle means.
+Right from the offset I will need to consult with my ender users to establish what they need from the system, and then make sure my design meets these needs. I need to extensively test the system with all the end users that will be using the system and get feedback about their experiences. Based towards their feedback I can judge whether they find the system useful or not and alter what needs to be changed to the system accordingly.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+### Findable
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+
+Systems should be able to be easily navigated, so that end-users can find the content and complete tasks with the functionality and easiness they need and deserve.
+
+
+Since the clients of the Retail business could potentially have no It skills this means that the system must be as simple to navigate as possible, with every function as clear as possible and findable.
+
+
+I will need to consider how easily my system is to navigate in. I will need to make sure that my project will allow any end-user no matter what their skill level on IT is able to easily find and navigate through my website with minimal to no assistance This will impact my project by making sure there are no dead ends within the page and everything links together and you don't get stuck on a page. I can judge whether they find the system easily navigable based on their feedback and whether or not it needs to be changed.
+
+
 
 ### UX PRINCIPLE NAME HERE
 
