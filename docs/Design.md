@@ -96,13 +96,16 @@ I will need to consider how easily my system is to navigate in. I will need to m
 
 
 
-### UX PRINCIPLE NAME HERE
+### Valuable
 
-Replace this text with a clear explanation of what the UX design principle means.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+The UX design principle Valuable means that it should be able to deliver value towards the business or organisation they represent. This could be monetary value, increased user engagement or saving there time.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+The principle valuable is relevant to my project because the mangers of the retail stores need to be able to quickly change there employee's shifts and it needs to take as little amount of time possible.
+
+
+During my project I will need to consider moving forward how much value the project actually provides which will mostly be looked at how much time the user spends using the website finding and doing what they need. I need to make sure that the end-user is able to change the employee's shifts/data as fast as possible to make it so they can save as much of their time as possible and spend it else where to better of their business. I can judge whether they find the system valuable as to how much time they spend doing their tasks.
+
 
 
 -------------------------------------------------
@@ -111,7 +114,11 @@ Replace this text with an explanation of what you will need to consider moving f
 
 ### Database Structure
 
+<<<<<<< Updated upstream:docs/Design.md
 ![Database](images/database.png)
+=======
+![Database](images/database.png )
+>>>>>>> Stashed changes:Design.md
 
 ### User Interface Design
 
