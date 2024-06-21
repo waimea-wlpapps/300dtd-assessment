@@ -114,11 +114,7 @@ During my project I will need to consider moving forward how much value the proj
 
 ### Database Structure
 
-<<<<<<< Updated upstream:docs/Design.md
 ![Database](images/database.png)
-=======
-![Database](images/database.png )
->>>>>>> Stashed changes:Design.md
 
 ### User Interface Design
 
