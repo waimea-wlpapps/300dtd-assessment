@@ -29,9 +29,9 @@ Client should be able to
 - View others assigned Shifts
 
 Managers should be able to 
--View employee's assigned shifts
--Edit and Manage employee's assigned shifts
--add new employee
+- View employee's assigned shifts
+- Edit and Manage employee's assigned shifts
+- add new employees
 
 
 
