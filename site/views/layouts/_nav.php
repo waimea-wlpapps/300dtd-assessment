@@ -14,7 +14,7 @@
         <li><a hx-post="/logout" href="/logout">Logout</a>
 
         <?php else: ?>
-
+        <li><a href="/signup">Signup</a>
         <li><a href="/login">Login</a>
 
         <?php endif ?>
