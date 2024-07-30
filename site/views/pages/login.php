@@ -1,19 +1,14 @@
-<article>
-    <h2>Login</h2>
+<form hx-post="/login-user"
+      hx-trigger="submit">
 
-    <form hx-post="login" hx-swap="outerHTML">
+    <label>Username</label>
 
-        <label>Username</label>
-        <input name="username" type="text" required>
+    <input name="username" type="text" required>
 
-        <label>Password</label>
-        <input name="password" type="password" required>
+    <label>Password</label>
 
-        <input type="submit" value="Login">
+    <input name="password" type="password" required>
 
-    </form>
+    <input type="submit" value="login-user">
 
-    <p>User: <strong>jimmy</strong>,  Pass: <strong>jimmy</strong></p>
-
-</article>
-
+</form>

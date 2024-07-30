@@ -8,6 +8,7 @@ $pass = $_POST['pass'] ;
 $sur = $_POST['surname'] ;
 $fore = $_POST['forename'] ;
 
+
 $db = connectToDB() ;
 
 $query = 'SELECT * FROM users WHERE username = ?' ;
@@ -27,4 +28,4 @@ $stmt = $db->prepare($query) ;
 $stmt->execute([$fore, $sur, $user, $hash]) ;
 
 echo '<h2>Account Created!</h2>' ;
-echo '<p><a href="home.php">Home</a>' ;
+echo '<p><a href="login">Login Now!</a>' ;

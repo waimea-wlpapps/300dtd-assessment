@@ -8,8 +8,8 @@ require_once 'lib/router.php';
 
 //-------------------------------------------------------------
 // Site Configuration
-const SITE_NAME  = 'PHP Routing with HTMX';
-const SITE_OWNER = 'Waimea College';
+const SITE_NAME  = 'Retail Store Management';
+const SITE_OWNER = 'William Papps';
 
 //-------------------------------------------------------------
 // Setup a session
@@ -31,16 +31,23 @@ $router = new Router(['debug' => true]);
 //-------------------------------------------------------------
 // Define routes
 
+$router->route(GET, PAGE, '/',      'pages/home.php');
 $router->route(GET, PAGE, '/home',      'pages/home.php');
-$router->route(GET, PAGE, '/about', 'pages/about.php');
+$router->route(GET, PAGE, '/shifts',      'pages/shifts.php');
+
 // Login / logout handled by HTMX
 $router->route(GET,    PAGE, '/login',     'pages/login.php');
-$router->route(POST,   HTMX, '/login',     'actions/login-user.php');
+$router->route(POST,   HTMX, '/login-user',     'actions/login-user.php');
 $router->route(POST,   HTMX, '/logout',    'actions/logout-user.php');
 
+$router->route(GET,    PAGE, '/list-users',     'pages/list-users.php');
+
+$router->route(GET,   PAGE, '/toggle-useradmin',    'actions/toggle-useradmin.php');
+$router->route(GET,   PAGE, '/toggle-usermanager',    'actions/toggle-usermanager.php');
+$router->route(GET,   PAGE, '/delete-user',    'actions/delete-user.php');
 
 $router->route(GET,    PAGE, '/signup',     'pages/signup.php');
-$router->route(POST,   PAGE, '/signup-user',     'actions/signup-user.php');
+$router->route(POST,   HTMX, '/signup-user',     'actions/signup-user.php');
 //-------------------------------------------------------------
 // Generate the required view
 $router->view();

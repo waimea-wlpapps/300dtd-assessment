@@ -1,4 +1,5 @@
-<form method="POST" action="signup-user">
+<form hx-post="/signup-user"
+      hx-trigger="submit">
 
     <label>Forename</label>
 
@@ -16,7 +17,6 @@
 
     <input name="pass" type="password" required>
 
-    <input type="submit" value="Sign Up">
+    <input type="submit" value="signup-user">
 
 </form>
-<p><a href="home.php">Home</a>

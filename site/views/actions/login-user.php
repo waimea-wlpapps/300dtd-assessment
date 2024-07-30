@@ -1,18 +1,41 @@
-<!-- Handle the login data from the form, e.g. check against database -->
-
 <?php
 
-    $user = $_POST['username'] ?? '';
-    $pass = $_POST['password'] ?? '';
+require_once 'lib/db.php' ;
+consoleLog($_POST, 'Form Data');
 
-    if ($user == 'jimmy' && $pass == 'jimmy') {
-        $_SESSION['user']['name'] = 'Jimmy';
-        $_SESSION['user']['loggedIn'] = true;
+$user = $_POST['username'];
+$pass = $_POST['password'];
 
+$db = connectToDB();
+
+$query = 'SELECT * FROM users WHERE username = ?';
+$stmt = $db ->prepare($query);
+$stmt->execute([$user]);
+$userData = $stmt ->fetch();
+
+consoleLog($userData);
+
+// Did we actually get a user account?
+if ($userData) {
+
+    // Have an account, so check password
+    if (password_verify($pass, $userData['hash'])) {
+        // We got here, so user and password both ok
+        $_SESSION['user']['loggedIn'] = true ;
+        // Save user info for later use
+        $_SESSION['user']['username'] = $userData['username'] ;
+        $_SESSION['user']['admin'] = $userData['admin'] ;
+        $_SESSION['user']['forename'] = $userData['forename'] ;
+        $_SESSION['user']['surname'] = $userData['surname'] ;
+        $_SESSION['user']['manager'] = $userData['manager'] ;
+        // Head over to the home page
         header('HX-Redirect: ' . SITE_BASE . '/home');
     }
     else {
-        echo '<h2>Account or password not recognised</h2>';
+        echo '<h2>Incorrect password!</h2>' ;
+        header('HX-Redirect: ' . SITE_BASE . '/login');
     }
-
-?>
+}
+else {
+    echo '<h2>User account does not exist!</h2>' ;
+}       

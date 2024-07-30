@@ -8,11 +8,25 @@
     <menu hx-boost="true">
 
         <li><a href="/home">Home</a>
-        <li><a href="/about">About</a>
         <?php if ($isLoggedIn): ?>
 
+            <?php
+            $isAdmin = $_SESSION['user']['admin']       ?? false ;
+            $isManager = $_SESSION['user']['manager']       ?? false ;
+                if ($isAdmin){
+                    ?>
+                     <li><a href="/list-users">User-list</a>
+                     <?php
+                }
+            
+                if ($isManager){
+                    ?>
+                     <li><a href="/list-users">User-list</a>
+                     <?php
+                }
+            ?>
         <li><a hx-post="/logout" href="/logout">Logout</a>
-
+        
         <?php else: ?>
         <li><a href="/signup">Signup</a>
         <li><a href="/login">Login</a>
