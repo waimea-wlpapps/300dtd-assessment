@@ -13,13 +13,18 @@
             <?php
             $isAdmin = $_SESSION['user']['admin']       ?? false ;
             $isManager = $_SESSION['user']['manager']       ?? false ;
-                if ($isAdmin){
+                if ($isAdmin && !$isManager){
                     ?>
                      <li><a href="/list-users">User-list</a>
                      <?php
                 }
             
-                if ($isManager){
+                if ($isManager && !$isAdmin){
+                    ?>
+                     <li><a href="/list-users">User-list</a>
+                     <?php
+                }
+                if ($isManager && $isAdmin){
                     ?>
                      <li><a href="/list-users">User-list</a>
                      <?php
@@ -28,7 +33,6 @@
         <li><a hx-post="/logout" href="/logout">Logout</a>
         
         <?php else: ?>
-        <li><a href="/signup">Signup</a>
         <li><a href="/login">Login</a>
 
         <?php endif ?>

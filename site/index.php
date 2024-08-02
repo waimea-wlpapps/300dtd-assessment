@@ -40,6 +40,8 @@ $router->route(GET,    PAGE, '/login',     'pages/login.php');
 $router->route(POST,   HTMX, '/login-user',     'actions/login-user.php');
 $router->route(POST,   HTMX, '/logout',    'actions/logout-user.php');
 
+$router->route(POST, HTMX, '/list-order', 'actions/list.php');
+
 $router->route(GET,    PAGE, '/list-users',     'pages/list-users.php');
 
 $router->route(GET,   PAGE, '/toggle-useradmin',    'actions/toggle-useradmin.php');

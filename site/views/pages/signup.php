@@ -1,3 +1,8 @@
+
+<form method="GET" action="list-users">
+    <input type="submit" value="Return to User List">
+</form>
+
 <form hx-post="/signup-user"
       hx-trigger="submit">
 

@@ -25,28 +25,39 @@ $isManager = $_SESSION['user']['manager']       ?? false ;
 if ($isloggedIn) {
     $name = $_SESSION['user']['username'];
     echo '<h1>Welcome, ' .$name . '</h1>';
-    if ($isAdmin){
+    if ($isAdmin && !$isManager){
         echo'<p>Welcome to the website</p>' ;
-        echo'<p>You\'re currently signed in as an Admin</p>' ;
+        echo'<p>You\'re a System Admin</p>' ;
 
 
-        echo '<p><a href="list-users">See all users</a></p>';
-        echo '<p><a href="logout-user">Logout</a></p>';
+
+        echo '<a href="list-users"><input type ="submit" value="See all users"</a>';
+        echo '<a hx-post="/logout"><input type="submit" value="Logout"</a>';
     }
 
-    if ($isManager){
-        echo'<p>You\'re a Manager!!!</p>' ;
+    if ($isManager && !$isAdmin){
+        echo'<p>You\'re a System Manager!!!</p>' ;
 
-        echo '<p><a href="list-users">See all users</a></p>';
-        echo '<p><a href="logout">Logout</a></p>';
+        echo '<a href="list-users"><input type ="submit" value="See all users"</a>';
+        echo '<a hx-post="/logout"><input type="submit" value="Logout"</a>';
+    }
+    if ($isManager && $isAdmin){
+        echo'<p>You\'re the owner!!!</p>' ;
+
+        echo '<a href="list-users"><input type ="submit" value="See all users"</a>';
+        echo '<a hx-post="/logout"><input type="submit" value="Logout"</a>';
+    }
+
+    if (!$isManager && !$isAdmin){
+        echo '<a href="list-users"><input type ="submit" value="See all users"</a>';
     }
 
 }
 else {
     echo '<h1>Hello, Guest!</h1>';
-    echo '<p>Please login or sign up for an account...</p>';
-    echo '<p><a href="login">Login</a></p>';
-    echo '<p><a href="signup">Sign Up</a></p>' ;
+    echo '<p>Please login or Contact your Manger for Login Details.</p>';
+    echo '<p><a href="login"><input type="submit" value="Login Here"</a></p>';
+
 }
 
 

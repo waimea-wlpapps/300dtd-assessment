@@ -28,4 +28,4 @@ $stmt = $db->prepare($query) ;
 $stmt->execute([$fore, $sur, $user, $hash]) ;
 
 echo '<h2>Account Created!</h2>' ;
-echo '<p><a href="login">Login Now!</a>' ;
+echo '<p><a href="list-users    ">View Users!</a>' ;
