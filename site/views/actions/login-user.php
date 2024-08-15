@@ -28,6 +28,7 @@ if ($userData) {
         $_SESSION['user']['forename'] = $userData['forename'] ;
         $_SESSION['user']['surname'] = $userData['surname'] ;
         $_SESSION['user']['manager'] = $userData['manager'] ;
+        $_SESSION['user']['id'] = $userData['id'] ;
         // Head over to the home page
         header('HX-Redirect: ' . SITE_BASE . '/home');
     }

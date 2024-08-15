@@ -20,7 +20,7 @@ try {
 
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB insert', ERROR);
-    die('There was an giving user admin');
+    die('There was an error deleting user');
 }
 
 header ('location: list-users');

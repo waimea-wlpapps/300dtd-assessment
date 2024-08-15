@@ -48,8 +48,16 @@ $router->route(GET,   PAGE, '/toggle-useradmin',    'actions/toggle-useradmin.ph
 $router->route(GET,   PAGE, '/toggle-usermanager',    'actions/toggle-usermanager.php');
 $router->route(GET,   PAGE, '/delete-user',    'actions/delete-user.php');
 
+
 $router->route(GET,    PAGE, '/signup',     'pages/signup.php');
 $router->route(POST,   HTMX, '/signup-user',     'actions/signup-user.php');
+
+$router->route(GET,    PAGE, '/addshift',     'pages/addshift.php');
+$router->route(POST,   HTMX, '/add-shift',     'actions/add-shift.php');
+
+$router->route(GET,   PAGE, '/delete-shift',    'actions/delete-shift.php');
+
+
 //-------------------------------------------------------------
 // Generate the required view
 $router->view();

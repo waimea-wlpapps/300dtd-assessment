@@ -8,7 +8,7 @@ if (!$isAdmin) {
     if(!$isManager)header('location: home');
 }
 
-
+ 
 $db = connectToDB();
 
 $search = $_GET['search'] ?? '';
@@ -33,7 +33,7 @@ echo '</form>';
 echo '<h1>Users List </h1>';
 
 echo '<form method="GET" action="">';
-echo '<input type="text" name="search" placeholder="Search Employee" value="' . ($search) . '">';
+echo '<input type="text" name="search" placeholder="Search Employee Full Name" value="' . ($search) . '">';
 echo '<input type="submit" value="Search">';
 echo '</form>';
 

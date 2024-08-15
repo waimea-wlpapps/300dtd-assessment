@@ -49,14 +49,41 @@ if ($isloggedIn) {
     }
 
     if (!$isManager && !$isAdmin){
-        echo '<a href="list-users"><input type ="submit" value="See all users"</a>';
+        require_once 'lib/db.php';
+$isloggedIn = $_SESSION['user']['loggedIn'] ?? false ;
+$db = connectToDB();
+        $name = $_SESSION['user']['username'];
+        $user_id = $_SESSION['user']['id'];
+        $forename = $_SESSION['user']['forename'];
+        $surname = $_SESSION['user']['surname'];
+
+        
+        $query = 'SELECT shift, user, id FROM shifts WHERE user = :user_id';
+        $stmt = $db->prepare($query);
+        $stmt->bindParam(':user_id', $user_id);
+        $stmt->execute();
+        $shifts = $stmt->fetchAll();
+        
+        echo '<h1>User ID: ' .$user_id. '</h1>';
+        echo '<h1>Name: ' . $forename . " " . $surname.  '</h1>';
+        
+        
+        if (empty($shifts)) {
+            echo '<h2>No shifts found for:  '. $forename. ' ' . $surname . ': User ID: ' . $user_id . '</h2>';
+        } else {
+            echo '<ul>';
+            foreach ($shifts as $shift) {
+                echo '<li><h5>Current Shift: '. $shift['shift'] . '</li>';
+            }
+            echo '</ul>';
+        }
     }
 
 }
 else {
     echo '<h1>Hello, Guest!</h1>';
-    echo '<p>Please login or Contact your Manger for Login Details.</p>';
-    echo '<p><a href="login"><input type="submit" value="Login Here"</a></p>';
+    echo '<p>Please Login or Contact Manager for you Login Details.</p>';
+    echo '<p><a href="login"><input type="submit" value="Login to account Here"</a></p>';
 
 }
 
