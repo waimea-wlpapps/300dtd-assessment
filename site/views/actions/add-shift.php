@@ -9,7 +9,7 @@ $shift = $_POST['shift'] ;
 
 $db = connectToDB() ;
 
-// Add the user account
+// Add the user account into the Database
 $query = 'INSERT INTO shifts (shift, user) VALUES(?, ?)' ;
 $stmt = $db->prepare($query) ;
 $stmt->execute([$shift, $user]) ;

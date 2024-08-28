@@ -59,11 +59,9 @@ As I create my system I will need to make sure that website is going to and does
 
 The accessibility implications of a digital technology or digital outcome involve ensuring it is available and can be used by every end-user possible regardless of their limitations.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
 
 I will need to design my system to be as accessible as possible since the end-users will need my website this is relevant because there cant be people with impairments or limitations that means that they're unable to use the website. Every worker in the retail store needs access and able to use the website. The website should work as expected on any device of the end-users it should have no problems with using different devices.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 As i design my website I will make sure that the colour and tone I combine will have good levels of contrast to help in accessing texts/icons/graphics I will make sure that the different colours used will not hurt anybody's eyes and will not make the website difficult to use if they're colour blind. I will have to make sure that the font and font size are readable as we don't want a too fancy font or too small font that some people are unable to read the words. The font will be straight forwards
 
@@ -127,12 +125,17 @@ During my project I will need to consider moving forward how much value the proj
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Database](images/DBTables.png)
+![Database](images/DBUsers.png)
+![Database](images/DBShifts.png)
+
+
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
 
+[Place screenshots and notes here that show your *actual system UI* in action.](https://youtu.be/A0dFfiXMiEY)
+Youtube link showing a video of functionality of my system.
 
 -------------------------------------------------
 
@@ -140,33 +143,45 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+The end product that I have made meets the user requirements because the website has a very easy to use design and uses features from all the heuristics that I choose to implement into the website. The end user is able to easily use and manage the features in the website and teach others. It meets the specific tasks that the managers needed to be able to do and the system meets their needs entirely.
 
 ### Meeting the System Requirements
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### Review of IMPLICATION NAME HERE
+Tge requirements and features that I defined at the start of the project summed up where to have the website be able to be easiy used by anyone with little to no training and the features were that It needed to be able to add and remove shifts from employees also needed the feature to be able to view what employee's have what shifts. My website has used these features very effectively and they work smoothly and dont require help. Managers are able to manipulate their employees shift very fast and easily.
+
+### Review of Accessibility
+
+To make sure that I used the accessibility heuristic I choose colours that were easy to use and didnt have to high of contrast between each other and didnt blind the user. The color's allowed links and buttons to stand out from the rest of the page to make sure that the page was able to be navigated easily. I made sure that the font size was easily readable and anybody would be able to read the words without difficulty .
+
+
+
+### Review of Usability
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+This implication was used in the final outcome of the website because I made sure that the page was easily to be used and that anybody who had access to it could use any function on the website without teaching as their was minimal options use and every button and link was straight forward and told you exactly what is was doing or where it was going to take you.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Functionality
 
-### Review of IMPLICATION NAME HERE
+This implication was definintely used because the functionality of the website works how intended the users are easily able ot view and edit theirs shifts on the website without any problems meeting the required functionality from my end user.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Useful
 
-### Review of UX PRINCIPLE NAME HERE
+The UX principle of useful was addressed in the final outcome of my website by making sure that the website intendeda  real need/purpose on my website for the desired end-user I made sure that the website complted the problem and need of managers wanting to change, add or edit their employees shift without hassle I made sure that my website completed this task and was easily able to be used.
+
+### Review of Findable
+
+
+I made sure the UX principle findable was addressed in the final outcome. by making sure that the website was able to be easily navigated and you could traverse between pages without prbolems and go back to pages with ease if misclicked. I made sure the navigation was as simple as possible and used php routing system to help complete this I made sure every link and butotn  that leads you somewhere was obvious as to what it would do and where it would take you. I also kept the navigation bar fairly small to prevent cluttering.
+
+
+### Review of Valuable
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+I made sure the UX principle valuable was addressed in the final outcome of my website by making sure that the website delivered value towards the organisation/end-user that was using it. I made sure that the website would be fast to use so that the users could save more of their time and spend it else where to further improve their company. I made sure to do this by making it as fast as possible to change and add the shifts of their employees.
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 

@@ -5,7 +5,7 @@ $db = connectToDB();
 
 ?>
 
-
+<!-- Form to add a shift  -->
 <form hx-post="/add-shift"
       hx-trigger="submit">
 

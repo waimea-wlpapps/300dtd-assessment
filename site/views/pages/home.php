@@ -17,11 +17,11 @@
 <?php
 
 consoleLog($_SESSION, 'Session Data');
-
+// Checks if they're logged in and admin
 $isloggedIn = $_SESSION['user']['loggedIn'] ?? false ;
 $isAdmin = $_SESSION['user']['admin']       ?? false ;
 $isManager = $_SESSION['user']['manager']       ?? false ;
-
+//If they're logged in and have certain permissions load these functions
 if ($isloggedIn) {
     $name = $_SESSION['user']['username'];
     echo '<h1>Welcome, ' .$name . '</h1>';
@@ -47,7 +47,7 @@ if ($isloggedIn) {
         echo '<a href="list-users"><input type ="submit" value="See all users"</a>';
         echo '<a hx-post="/logout"><input type="submit" value="Logout"</a>';
     }
-
+//Displays the users shift
     if (!$isManager && !$isAdmin){
         require_once 'lib/db.php';
 $isloggedIn = $_SESSION['user']['loggedIn'] ?? false ;
